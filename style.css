@@ -1,0 +1,476 @@
+/* ================
+
+Template Name: HPX Website
+Author: Sazzad 
+Website: sazzaddev.com
+support: sazzad.dev21@gmail.com
+version: 1.0
+
+==================*/
+
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
+
+/* Global CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    background-color: #151920;
+    color:#ABAFC8;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ABAFC8;
+    font-size: 1.4rem;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+h1 {
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 49.29%, #0CC77D 85.43%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 4rem;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+h1::before {
+    content: '';
+    width: 5rem;
+    height: 2px;
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 77.29%, #0CC77D 98.43%);
+    position: absolute;
+    margin-top: -2rem;
+}
+
+h2 {
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 49.29%, #0CC77D 56.43%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+ font-size: 2rem;
+ font-weight: 600;
+}
+
+h2::before {
+    content: '';
+    width: 5rem;
+    height: 2px;
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 77.29%, #0CC77D 98.43%);
+    position: absolute;
+    margin-top: -2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+p {
+    color: #BFC2DE;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+section {
+    padding: 5rem 0;
+}
+/* Nav Section */
+
+.navbar-brand {
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 49.29%, #0CC77D 98.43%);
+    border-radius: 40px;
+    padding: 1rem 3rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.navbar-brand img {
+    margin-right: 0.3rem;
+}
+
+.nav-link {
+    margin-right: 1.5rem;
+}
+
+.nav-en-list {
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 0.1rem 2.5rem;
+}
+
+.nav-en-btn {
+    background: #1C2228;
+}
+
+/* Hero Section */
+
+.hero-img {
+    width: 600px;
+    margin-left: -12rem;
+    margin-top: 6rem;
+}
+
+/* Section-1 */
+
+.section-1 {
+    background: rgba(22, 24, 31, 0.1);
+}
+
+.section-1-desc {
+    width: 450px;
+    color: #BFC2DE;
+    font-weight: 300;
+}
+
+.sec-1-img {
+    width: 400px;
+}
+
+/* Section-2 */
+
+.section-2 {
+    background: url(images/scratch-right.png) no-repeat top right / 115%;
+}
+
+.embed-responsive {
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+
+/* Section-3 */
+
+.section-3 .custom-card,
+.section-4 .custom-card {
+    background: linear-gradient(180deg, #1D2029 0%, rgba(29, 32, 41, 0) 100%);
+    border-radius: 50px;
+    padding: 1rem 1.5rem;
+    width: 35rem;
+    position: relative;
+}
+
+.section-3 .custom-card .card-text,
+.section-4 .custom-card .card-text {
+    font-weight: 300;
+    color: #BCBEC7;
+}
+
+.card-title {
+    font-size: 1.6rem;
+}
+
+.custom-card-fix1 {
+    margin-left: 20%;
+}
+
+.card-arrow-left {
+    position: absolute;
+    right: 10%;
+    bottom: -25%;
+    z-index: 9;
+}
+
+.card-arrow-right {
+    position: absolute;
+    left: 5%;
+    bottom: -50%;
+    z-index: 10;
+}
+
+.sec-3-img {
+    width: 500px;
+    margin-left: -1rem;
+}
+
+/* Section-4 */
+
+.sec-4-img {
+    width: 400px;
+}
+
+.card-text a {
+    text-decoration: underline;
+    color: #D4D4D5;
+}
+
+.card-text a:hover {
+    color: #ABAFC8;
+}
+
+/* Section-5 */
+
+.section-5 {
+    background: url(images/scratch-left.png) no-repeat left / contain , url(images/scratch-right.png) no-repeat right / contain;
+}
+
+.section-5 h2::before {
+    transform: translate(175%, 1%);
+}
+
+.section-5 h2 {
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 49.29%, #0CC77D 58.43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.sec-5-btn {
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 45.29%, #0CC77D 60.43%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 54.29%, #0CC77D 38.43%);
+    border-image-slice: 1;
+    border-radius: 20px;
+    padding: 1rem 12rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+/* Section-6 */
+
+.section-6 h2::before {
+    transform: translate(30%, 50%);
+}
+
+.section-6 h2 {
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 49.29%, #0CC77D 48.43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+.section-6 p {
+    font-weight: 300;
+    color: #BCBEC7;
+}
+
+/* Section-7 */
+
+.section-7 .custom-card {
+    width: 45rem;
+    background: #1D2029;
+    border-radius: 20px;
+}
+
+.section-9 .custom-card {
+    height: 36rem;
+}
+
+ .section-7 .custom-card .card-body {
+    padding: 3rem !important;
+ }
+
+.section-7 .card-title {
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 20.29%, #0CC77D 50.43%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.section-7 p {
+    color: #BFC2DE;
+    font-weight: 300;
+}
+
+/* Section-8 */
+
+.sec-8-img img {
+    width: 400px;
+}
+
+.section-8 .content h2 {
+    font-weight: 600;
+    font-size: 4rem;
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 20.29%, #0CC77D 50.43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.section-8 .content p {
+    color: #BCBEC7;
+    font-size: 2rem;
+}
+
+/* Footer */
+
+footer {
+    background: #141119;
+    padding: 4rem 0;
+}
+
+.footer-heading {
+    color: #fff;
+    font-weight: 600;    
+}
+
+.social-icon {
+    border: none;
+    border-radius: 50%;
+    padding: 0.9rem;
+    margin-right: 1rem;
+    background: #24252E;
+    transition: 0.3s all linear;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 49.29%, #0CC77D 98.43%);;
+}
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background: #191D24;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-slogan {
+    margin-top: 2rem;
+    color: #F4F4F4CC;
+    font-size: 1.3rem;
+}
+
+.footer-link-heading {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+
+.footer-col li {
+    margin-top: 0.8rem;
+}
+
+.footer-col a {
+    color: rgba(244, 244, 244, 0.8);
+}
+
+.footer-col-padding {
+    padding-left: 10rem;
+}
+
+/* Media Queries */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    * {
+        font-size: 55%;
+    }
+
+    .col-md-12 {
+        text-align: center;
+    }
+
+    .custom-toggler.navbar-toggler {
+        outline: none;
+        border: none;
+        background: linear-gradient(96.24deg, #276EA3 0.15%, #0FB3C5 49.29%, #0CC77D 98.43%);
+        font-size: 2.5rem;
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url(images/nav-menu.png);
+        background-size: cover;
+    }
+
+    .section-1 .row,
+    .section-4 .row {
+        flex-direction: column-reverse;
+    }
+
+    .section-1-desc {
+        width: 100%;
+    }
+    .section-7 .row .col-md-12 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-8 .col-md-12 {
+        flex-direction: column;
+    }
+
+    .footer-col-padding {
+        padding-left: 0;
+    }
+
+    .footer-col-padding-md {
+        padding-left: 5rem;
+    }
+
+    footer .row .col-md-6 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .footer-col-padding-md {
+        padding-left: 0;
+    }
+    footer .row .col-md-6 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    * {
+        font-size: 50%;
+    }
+
+    .hero-img {
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+
+    .hero-img, .sec-1-img, .sec-3-img, .sec-4-img, .sec-8-img img {
+        width: 250px;
+    }
+
+    .custom-card {
+        width: 26rem;
+    }
+}
